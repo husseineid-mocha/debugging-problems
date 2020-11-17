@@ -8,7 +8,6 @@ of foods that you have fed that pet.
 
 function feedPet(name) {
     const foods = [];
-    debugger
     return (food) => {
         foods.push(food)
         return sentence = "Fed " + name + " " + foods.join(" ") + ".";
